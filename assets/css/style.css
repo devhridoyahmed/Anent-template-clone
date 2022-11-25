@@ -1,0 +1,592 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+/* common code start */
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: 0px;
+	width: 100%;
+	
+}
+.container{
+	width: 90%;
+	margin: 0px auto;
+	border: 0px solid tomato;
+}
+/* common code end */
+
+/* Banner code start */
+.banner-section{
+	overflow: hidden;
+	background: url(../img/1.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+}
+.banner-inner {
+	text-align: center;
+	padding: 250px 200px 190px 200px;
+}
+.banner-inner h1 a{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 52px;
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	letter-spacing: 10px;
+}
+.banner-inner p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 19px;
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+.banner-inner .banner-icon a i {
+	color: #fff;
+	font-size: 19px;
+	padding: 0 10px;
+}
+.banner-inner .read-more{
+	display: inline-block;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	margin-top: 20px;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+/* Banner code end */
+/* Nav code Start */
+.nav-section{
+	box-shadow: 1px 1px 5px gray;
+}
+.nav-section .nav-inner{
+	clear: both;
+	padding: 10px;
+}
+.nav-section .nav-inner strong{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 24px;
+	color: #212529;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.nav-section .nav-inner .navbar{
+	float: right;
+	display: inline-block;
+}
+.nav-section .nav-inner .navbar a{
+	text-decoration: none;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 15px;
+	color: #000;
+	font-weight: 500;
+	display: inline-block;
+	padding: 8px 15px;
+}
+.nav-section .nav-inner .navbar a:hover{
+	background-color: #5AD5AC;
+	color: #fff;
+	transition: 0.5s;
+}
+.nav-section .nav-inner .navbar a.active{
+	background-color: #5AD5AC;
+	color: #fff;
+}
+/* Nav code end */
+/* Hi code start */
+.hi-section .hi-inner{
+	overflow: hidden;
+}
+.hi-section .hi-inner .hi-img{
+	width: 50%;
+	float: left;
+	padding: 5% 10% 0 15%;
+}
+.hi-section .hi-inner .hi-text{
+	width: 50%;
+	float: left;
+	padding: 20% 30px 0 0;
+}
+.hi-section .hi-inner .hi-text h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 50px;
+	color: #333;
+	font-weight: 700;
+	margin: 10px 0 0 0;
+	letter-spacing: 3px;
+}
+.hi-section .hi-inner .hi-text p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 16px;
+	color: #999;
+	font-weight: 400;
+	margin: 10px 0 20px 0;
+	letter-spacing: 1px;
+}
+.hi-section .hi-inner .hi-text .hire-me{
+	text-decoration: none;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	color: #000;
+	font-weight: 500;
+	display: inline-block;
+	padding: 10px 20px;
+	border: 1px solid #6BDAB5;
+	letter-spacing: 2px;
+}
+.hi-section .hi-inner .hi-text .hire-me:hover{
+	color: #6BDAB5;
+	transition: 0.5s;
+}
+/* Hi code end */
+/* Icon code start */
+.icon-section .icon-inner{
+	padding: 2% 13% 2% 12%;
+}
+.icon-section .icon-inner ul{
+	padding: 0;
+}
+.icon-section .icon-inner ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0px 20px;
+}
+.icon-section .icon-inner ul li i{
+	color: #00a3e2;
+	font-size: 40px;
+}
+.icon-section .icon-inner ul li h3{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 23px;
+	color: #343a40;
+	font-weight: 500;
+}
+/* Icon code end */
+/* Info code start */
+.info-section{
+	background: url(../img/bg5.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.info-section .info-inner{
+	padding: 5% 0 4.4% 0%;
+}
+.info-section .info-inner ul{
+	padding: 0;
+}
+.info-section .info-inner ul li{
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+	margin: 0px 97px;
+}
+.info-section .info-inner ul li h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 51px;
+	color: #fff;
+	font-weight: 700;
+	margin: 0;
+}
+.info-section .info-inner ul li h3{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 10px;
+}
+/* Info code end */
+/* service code Start */
+.service-section{
+	text-align: center;
+}
+.service-section h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 36px;
+	color: #343a40;
+	font-weight: 500;
+}
+.service-section .service-inner{
+	clear: both;
+	overflow: hidden;
+}
+.service-section .service-inner .service-card{
+	width: 31%;
+	float: left;
+	padding: 25px 30px;
+	margin: 5px 13px 10px 13px;
+    border-radius: 15px;
+	box-shadow: 3px 3px 20px #ebebeb, -3px 3px 20px #ebebeb, 0px -3px #00a3e2 inset;
+}
+.service-section .service-inner .service-card i{
+	font-size: 40px;
+	color: #fff;
+	display: inline-block;
+	background-color: #00A3E2;
+	padding: 25px;
+    border-radius: 25%;
+	
+}
+.service-section .service-inner .service-card h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 22px;
+	color: #000;
+	font-weight: 600;
+}
+.service-section .service-inner .service-card p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 15px;
+	color: #676666;
+	font-weight: 400;
+}
+/* service code end */
+/* resume code start */
+.resume-section .resume-inner{
+	clear: both;
+	overflow: hidden;
+}
+.resume-section .resume-inner .resume-img{
+	width: 30%;
+	padding: 20px 10px 0px 10px;
+	float: left;
+}
+.resume-section .resume-inner .resume-img img{
+	width: 100%;
+}
+.resume-section .resume-inner .resume-text{
+	width: 70%;
+	float: left;
+	padding: 12% 5% 5% 5%;
+}
+.resume-section .resume-inner .resume-text .resume{
+
+}
+.resume-section .resume-inner .resume-text .resume h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 24px;
+	color: #333;
+	font-weight: 600;
+}
+.resume-section .resume-inner .resume-text .resume p small{
+	font-family: "Times New Roman";
+	font-size: 16px;
+	color: #555;
+	font-weight: 500;
+	font-style: italic;
+}
+.resume-section .resume-inner .resume-text .resume p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 15px;
+	color: #999;
+	font-weight: 400;
+}
+/* resume code end */
+/* color board code start */
+.board-section{
+	background-color: #33CC99;
+}
+.board-section .board-inner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 50px 20px;
+}
+.board-section .board-inner h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 34px;
+	color: #fff;
+	font-weight: 500;
+}
+.board-section .board-inner a{
+	display: inline-block;
+	border: 1px solid #fff;
+	padding: 10px 20px;
+	margin-top: 20px;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+.board-section .board-inner a:hover{
+	color: #C5F0E2;
+	transition: 0.5s;
+}
+/* color board code end */
+/* projects code start */
+.projects-section{
+	text-align: center;
+}
+.projects-section h1{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 36px;
+	color: #343a40;
+	font-weight: 500;
+	margin: 5%;
+}
+.projects-section .projects-inner{
+	display: flex;
+}
+.projects-section .projects-inner .column{
+	width: 100%;
+}
+.projects-section .projects-inner .column a img{
+	width: 95%;
+	margin-top: 10px;
+}
+/* projects code end */
+/* feedback code start */
+.feedback-section{
+	background: url(../img/bg1.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 5%;
+}
+.feedback-section .feedback-inner{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.feedback-section .feedback-inner .feedback{
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 65%;
+	padding: 2% 5%;
+}
+.feedback-section .feedback-inner .f1{
+	margin: 7% 0 2% 0;
+}
+.feedback-section .feedback-inner .f2{
+	margin: 2% 0 7% 0;
+}
+.feedback-section .feedback-inner .feedback p{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+}
+.feedback-section .feedback-inner .feedback h3{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 20px;
+	color: #fff;
+	font-weight: 800;
+	letter-spacing: 2px;
+}
+/* feedback code end */
+/* blog code start */
+.blog-section{
+	text-align: center;
+}
+.blog-section h1{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 36px;
+	color: #343a40;
+	font-weight: 500;
+	margin: 5%;
+}
+.blog-section .blog-inner{
+	display: flex;
+}
+.blog-section .blog-inner .column{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+.blog-section .blog-inner .column a img{
+	width: 100%;
+}
+.blog-section .blog-inner .column .column-text{
+	text-align: left;
+	width: 95%;
+	padding: 20px 20px 40px 5px;
+}
+.blog-section .blog-inner .column .column-text small{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 12px;
+	color: #b9b9b9;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.blog-section .blog-inner .column .column-text h1{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 22px;
+	color: #1d1d1d;
+	font-weight: 400;
+	margin: 20px 0;
+}
+.blog-section .blog-inner .column .column-text p{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	color: #999;
+	font-weight: 400;
+	margin: 20px 0;
+}
+/* blog code end */
+/* form code start */
+.form-section{
+	background: url(../img/bg2.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	margin-top: 5%;
+}
+.form-section .form-inner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-section .form-inner h1{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 36px;
+	color: #343a40;
+	font-weight: 500;
+}
+.form-section .form-inner form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.form-section .form-inner form div .row1{
+	height: 40px;
+	width: 330px;
+	border: none;
+	outline: none;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 15px;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+}
+.form-section .form-inner form div .row2{
+	height: 40px;
+	width: 685px;
+	border: none;
+	outline: none;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 15px;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+}
+.form-section .form-inner form div .row3{
+	height: 150px;
+	width: 685px;
+	border: none;
+	outline: none;
+	margin: 10px 10px 10px 10px;
+	padding: 5px 5px 5px 15px;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	color: #000;
+	font-weight: 400;
+	resize: none;
+}
+.form-section .form-inner form div .submit{
+	border: none;
+	padding: 17px 40px;
+	margin: 20% 0 55% 0;
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 16px;
+	color: #fff;
+	background-color: #33CC99;
+	font-weight: 600;
+	text-decoration: none;
+	letter-spacing: 5px;
+}
+.form-section .form-inner form div .submit:hover{
+	background-color: #58D2A9;
+	transition: 0.5s;
+}
+/* form code end */
+/* footer code start */
+.footer-section{
+	overflow: hidden;
+	background: url(../img/2.jpg) no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 700px;
+	width: 100%;
+}
+.footer-inner {
+	text-align: center;
+	padding: 80px 200px 190px 200px;
+}
+.footer-inner h1 a{
+	font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 52px;
+	color: #fff;
+	font-weight: 300;
+	text-decoration: none;
+	letter-spacing: 10px;
+}
+.footer-inner p{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 19px;
+	color: #fff;
+	font-weight: 200;
+	letter-spacing: 1px;
+}
+.footer-inner h2{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 28px;
+	color: #fff;
+	font-weight: 500;
+	text-decoration: none;
+	letter-spacing: 2px;
+	margin: 50px 0 20px 0;
+}
+.footer-inner .footer-icon a i{
+	color: #fff;
+	font-size: 14px;
+	padding: 7px;
+	display: inline-block;
+	height: 30px;
+	width: 30px;
+	margin: 10px 10px 50px 10px;
+}
+.footer-inner .footer-icon a .fa-facebook-f{
+	background-color: #3B5998;
+}
+.footer-inner .footer-icon a .fa-twitter{
+	background-color: #1DA1F2;
+}
+.footer-inner .footer-icon a .fa-google-plus-g{
+	background-color: #F44336;
+}
+.footer-inner .footer-icon a .fa-instagram{
+	background-color: #EA4C89;
+}
+.footer-inner h3{
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 15px;
+	color: #e0e0e0;
+	font-weight: 400;
+	text-decoration: none;
+	letter-spacing: 3px;
+	margin: 30px 0;
+	padding: 50px 0 0 0;
+	border-top: 1px solid #e0e0e0;
+}
+/* footer code end */
+
+
+
+
+
+
+
+
+
+
+
